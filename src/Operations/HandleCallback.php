@@ -34,6 +34,10 @@ class HandleCallback
             return;
         }
 
+        $order->add_order_note(
+            __('Handling payment response from WorldPay.', 'wc-worldpay')
+        );
+
         $gateway = GatewayFactory::build($this->wcGateway);
 
         /* @var CompletePurchaseResponse $response The response instance. */
@@ -52,10 +56,9 @@ class HandleCallback
             $order->update_status('failed', __('Payment was declined by WorldPay.', 'wc-worldpay'));
         }
 
-        wp_safe_redirect(
+        $response->confirm(
             $order->get_view_order_url()
         );
-        exit;
     }
 
     /**

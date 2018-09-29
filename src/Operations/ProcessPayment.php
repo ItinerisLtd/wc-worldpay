@@ -41,7 +41,7 @@ class ProcessPayment
         $notifyUrl = add_query_arg([
             'wc-api' => $wcGateway->getId(),
             'orderId' => $order->get_id(),
-        ], home_url());
+        ], home_url('/'));
 
         $gateway = GatewayFactory::build($wcGateway);
 
