@@ -3,7 +3,7 @@
  * Plugin Name:     WC WorldPay
  * Plugin URI:      https://www.itineris.co.uk/
  * Description:     WorldPay integration for WooCommerce.
- * Version:         0.1.0
+ * Version:         0.1.1
  * Author:          Itineris Limited
  * Author URI:      https://www.itineris.co.uk/
  * License:         GPL-2.0-or-later
