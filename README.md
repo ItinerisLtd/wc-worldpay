@@ -1,6 +1,5 @@
 # wc-worldpay
 
-[![Build Status](https://travis-ci.com/ItinerisLtd/wc-worldpay.svg?branch=master)](https://travis-ci.com/ItinerisLtd/wc-worldpay)
 [![Packagist Version](https://img.shields.io/packagist/v/itinerisltd/wc-worldpay.svg)](https://packagist.org/packages/itinerisltd/wc-worldpay)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/itinerisltd/wc-worldpay.svg)](https://packagist.org/packages/itinerisltd/wc-worldpay)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/itinerisltd/wc-worldpay.svg)](https://packagist.org/packages/itinerisltd/wc-worldpay)
