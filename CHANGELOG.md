@@ -1,10 +1,18 @@
 # Change Log
 
-## [0.1.1](https://github.com/ItinerisLtd/wc-worldpay/tree/0.1.1) (2018-09-30)
+## [0.1.2](https://github.com/ItinerisLtd/wc-worldpay/tree/0.1.2) (2018-10-31)
+[Full Changelog](https://github.com/ItinerisLtd/wc-worldpay/compare/0.1.1...0.1.2)
+
+**Merged pull requests:**
+
+- Better instructions and help text [\#4](https://github.com/ItinerisLtd/wc-worldpay/pull/4) ([TangRufus](https://github.com/TangRufus))
+
+## [0.1.1](https://github.com/ItinerisLtd/wc-worldpay/tree/0.1.1) (2018-09-29)
 [Full Changelog](https://github.com/ItinerisLtd/wc-worldpay/compare/0.1.0...0.1.1)
 
 **Merged pull requests:**
 
+- Version bump 0.1.1 [\#3](https://github.com/ItinerisLtd/wc-worldpay/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Use meta type redirection instead of location header [\#2](https://github.com/ItinerisLtd/wc-worldpay/pull/2) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.1.0](https://github.com/ItinerisLtd/wc-worldpay/tree/0.1.0) (2018-09-18)
