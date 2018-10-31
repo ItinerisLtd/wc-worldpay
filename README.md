@@ -61,11 +61,13 @@ On WorldPay's [integration setup page](http://support.worldpay.com/support/kb/bg
 
 1. Enter `<wpdisplay item=MC_callback>` as **Payment Response URL**
 1. Enable **Payment Response enabled?**
-1. Enter a random passphrase as **Payment Response password**
-1. Enter a random passphrase as **MD5 secret for transactions**
+1. Enter a 25-char random passphrase as **Payment Response password**
+1. Enter a 30-char random passphrase as **MD5 secret for transactions**
 1. Enter `instId:amount:currency:cartId` as **SignatureFields**
 
 Then, fill in the same information on WP admin dashboard - **WooCommerce > Settings > Payments > WordPay**.
+
+Note that WorldPay truncate long **Payment Response password** without notices!
 
 ## Security Concerns about WorldPay HTML API
 

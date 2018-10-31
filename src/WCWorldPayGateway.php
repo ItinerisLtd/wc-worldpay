@@ -115,7 +115,7 @@ class WCWorldPayGateway extends WC_Payment_Gateway
                 'type' => 'password',
                 'desc_tip' => true,
                 'description' => __(
-                    'MD5 secret for transactions field in the Integration Setup for your installation using the Merchant Interface > Installations option', // phpcs:ignore
+                    '30-char MD5 secret for transactions field in the Integration Setup for your installation using the Merchant Interface > Installations option', // phpcs:ignore
                     'wc-worldpay'
                 ),
             ],
@@ -124,7 +124,7 @@ class WCWorldPayGateway extends WC_Payment_Gateway
                 'type' => 'password',
                 'desc_tip' => true,
                 'description' => __(
-                    'This password is used to validate a Payment Notifications message.',
+                    'This 25-char password is used to validate a Payment Notifications message.',
                     'wc-worldpay'
                 ),
             ],
