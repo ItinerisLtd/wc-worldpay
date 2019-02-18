@@ -59,6 +59,7 @@ $ composer require itinerisltd/wc-worldpay
 
 On WorldPay's [integration setup page](http://support.worldpay.com/support/kb/bg/customisingadvanced/custa6011.html):
 
+1. Enable **Enable the Shopper Response**
 1. Enter `<wpdisplay item=MC_callback>` as **Payment Response URL**
 1. Enable **Payment Response enabled?**
 1. Enter a 25-char random passphrase as **Payment Response password**
