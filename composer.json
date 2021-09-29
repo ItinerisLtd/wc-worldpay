@@ -27,12 +27,21 @@
             "role": "Developer"
         }
     ],
+    "repositories": {
+        "omnipay-worldpay": {
+            "type": "vcs",
+            "url": "https://github.com/ItinerisLtd/omnipay-worldpay.git",
+            "only": [
+                "omnipay/worldpay"
+            ]
+        }
+    },
     "require": {
         "php": "^7.2",
         "ext-curl": "*",
         "composer/installers": "^1.5",
         "league/omnipay": "^3.0",
-        "omnipay/worldpay": "^3.0"
+        "omnipay/worldpay": "dev-cloudflare-support"
     },
     "require-dev": {
         "automattic/vipwpcs": "^0.3.0",
