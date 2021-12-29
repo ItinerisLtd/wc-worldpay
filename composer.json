@@ -40,8 +40,7 @@
         "php": "^7.2",
         "ext-curl": "*",
         "composer/installers": "^1.5",
-        "league/omnipay": "^3.0",
-        "omnipay/worldpay": "dev-cloudflare-support"
+        "league/omnipay": "^3.0"
     },
     "require-dev": {
         "automattic/vipwpcs": "^0.3.0",
@@ -52,7 +51,10 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true
+        }
     },
     "extra": {
         "branch-alias": {
